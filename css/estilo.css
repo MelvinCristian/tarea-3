@@ -1,0 +1,104 @@
+.prinsipal
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+.secundario
+{
+    background-color: #caec1b;
+    border-style: solid;
+    border-color: dimgrey;
+    height: 100px;
+}
+.secundario1
+{
+    background-color: #18ed0d;
+    border-style: solid;
+    border-color: dimgrey;
+    height: 100px;
+    grid-column: 1/5;
+}
+.secundario2
+{
+    background-color: hwb(107 2% 56%);
+    border-style: solid;
+    border-color: dimgrey;
+    height: 100px;
+    grid-column: 1/3;
+}
+.secundario3
+{
+    background-color: red;
+    border-style: solid;
+    border-color: dimgrey;
+    height: 100px;
+    grid-column: 1/2;
+}
+.secundario4
+{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    grid-column: 2/5;
+}
+.secundario5
+{
+    background-color: purple;
+    border-style: solid;
+    border-color: dimgrey;
+    height: 100px;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+.secundario6
+{
+    background-color: pink;
+    border-style: solid;
+    border-color: dimgrey;
+    grid-column: 3/5;
+    grid-row: 4/5;
+}
+.secundario7
+{
+    background-color: mediumorchid;
+    border-style: solid;
+    border-color: dimgrey;
+    grid-column: 3/5;
+    grid-row: 5/6;
+}
+
+.principal
+{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.contenedor
+{
+    background-color: greenyellow;
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+}
+.contenedor1
+{
+    display: flex;
+}
+.contenedor1-1
+{
+    width: 350px;
+    height: 100px;
+    margin: 20px;
+    background-color: orange;
+}
+.contenedor1-2
+{
+    background-color: #9018e1b7;
+    width: 155px;
+    height: 110px;
+    margin: 20px;
+}
